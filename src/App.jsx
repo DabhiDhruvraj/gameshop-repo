@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-          <h1 className="title">Game Shop</h1>
+          <h1 className="title">Dhruvraj Game Shop</h1>
           <h3>Add a Game</h3>
           <div className="register-box">
               <input className="register-input" type="text" name="name" placeholder="Title" onChange={handleChangeValues} />

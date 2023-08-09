@@ -1,0 +1,49 @@
+/* Game card container */
+.game-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid lightslategrey;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Action buttons container */
+  .actions {
+    display: flex;
+  }
+  
+  /* Action button styles */
+  .actions button {
+    height: 30px;
+    padding: 0 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Edit button styles */
+  .actions .edit {
+    background-color: deepskyblue;
+  }
+  
+  .actions .edit:hover {
+    background-color: dodgerblue;
+  }
+  
+  /* Delete button styles */
+  .actions .delete {
+    background-color: crimson;
+  }
+  
+  .actions .delete:hover {
+    background-color: tomato;
+  }
+  
